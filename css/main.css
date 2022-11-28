@@ -1,2 +1,150 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 55px;
+  background-color: #77ff00;
+  padding: 15px; }
+  header div a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black; }
+    header div a img {
+      width: 10px;
+      margin-right: 10px;
+      display: flex; }
+    header div a h2:hover {
+      color: white; }
+  header nav a {
+    font-weight: 900;
+    padding-right: 10px; }
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px; }
+    header nav ul li {
+      text-decoration: none;
+      margin-right: 10px;
+      font-size: larger; }
+    header nav ul li:hover {
+      color: white;
+      transition: all 50ms; }
+
+.contenedorfooter div {
+  background-color: #202020; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
 body {
-  background-color: blue; }
+  font-family: sans-serif;
+  margin: 0;
+  background-color: black; }
+  body main {
+    margin: 3%; }
+
+/*inicio*/
+.joya div {
+  padding: 1%; }
+  .joya div h1 {
+    font-size: 170px;
+    color: #ebebeb; }
+  .joya div p {
+    font-size: 25px;
+    color: #acb3b8; }
+
+/*fin de inicio*/
+.textodiscografia h2 {
+  color: #ebebeb;
+  font-size: 50px; }
+
+.textodiscografia p {
+  color: #acb3b8;
+  font-size: 20px; }
+
+.contenedorcanciones {
+  display: flex;
+  justify-content: space-between; }
+
+.textotours h2 {
+  color: #ebebeb;
+  font-size: 50px; }
+
+.textotours p {
+  color: #acb3b8;
+  font-size: 20px; }
+
+.tarjetas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.card-body {
+  display: flex;
+  flex-direction: column; }
+
+.lollapalooza {
+  background-color: #77ff00; }
+  .lollapalooza img {
+    width: auto;
+    height: auto;
+    margin: 3%;
+    background-color: white; }
+
+.textopremios h2 {
+  color: #ebebeb;
+  font-size: 50px; }
+
+.textopremios p {
+  color: #acb3b8;
+  font-size: 20px; }
+
+.textocontacto h2 {
+  color: #ebebeb;
+  font-size: 50px; }
+
+.textocontacto p {
+  color: #acb3b8;
+  font-size: 20px; }
+
+.form {
+  background-color: white; }
+
+/*fin de premios*/
+@media (max-width: 700px) {
+  header {
+    flex-direction: column; }
+  /*inicio*/
+  .joya div h1 {
+    font-size: 85px; }
+  .joya div p {
+    font-size: 15px; }
+  .joya div {
+    padding: 3%; }
+  /*fin de inicio*/
+  /*discografia*/
+  .contenedorcanciones {
+    flex-direction: column;
+    justify-content: center; }
+  .contenedorcanciones iframe {
+    width: 90%; }
+  /*fin de discografia*/
+  /*tours*/
+  .tarjetas {
+    justify-content: center; }
+  /*fin de tours*/ }
+
+@media (max-width: 400px) {
+  nav ul {
+    flex-direction: column; }
+  /*inicio*/
+  .joya div h1 {
+    font-size: 85px; }
+  .joya div p {
+    font-size: 15px; }
+  .joya div {
+    padding: 3%; }
+  /*fin de inicio*/ }
