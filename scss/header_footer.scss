@@ -6,6 +6,7 @@ header{
     min-height: 55px;
     background-color: $colorverde;
     padding: 15px;
+    width: 100%;
     div{
         a{
             display: flex;
@@ -17,8 +18,13 @@ header{
                 margin-right: 10px;
                 display: flex;   
             }
+            h2{
+                padding: 0px;
+                margin: 0px;
+            }
             h2:hover{
                 color: white;
+               
         
             }
         
@@ -46,6 +52,10 @@ header{
         }
         
 }
+}
+footer{
+    width: 100%;
+    align-self: flex-end;
 }
 .contenedorfooter div{
     background-color: rgb(32, 32, 32);

@@ -7,9 +7,14 @@
 body{
     font-family: sans-serif;
     margin: 0;
+    padding: 0;
     background-color:$colornegro;
+    display: flex;
+    min-height:100vh ;
+    flex-wrap: wrap;
     main{
         margin: 3%;
+        width: 100%
     }
 }
 @import "inicio";
